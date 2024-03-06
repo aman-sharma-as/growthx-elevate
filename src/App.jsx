@@ -139,8 +139,8 @@ function App() {
       {/* progress-bar */}
       <div className="elevate-bar-section">
         <div className="elevate-bar">
-          <div class="progress-container">
-            <div class="progress-bar"></div>
+          <div className="progress-container">
+            <div className="progress-bar"></div>
             <img
               src="https://assets-global.website-files.com/63a49822ee2304acc9455a42/6530c1bc472672042ffc306b_structure.png"
               alt="structure indicator image"
@@ -177,42 +177,42 @@ function App() {
           </div>
           <div className="div-container">
             <div className="inner-div">
-              <span class="material-symbols-outlined" id="unlock">
+              <span className="material-symbols-outlined" id="unlock">
                 lock_open
               </span>
-              <span class="material-symbols-outlined" id="qusestion">
+              <span className="material-symbols-outlined" id="qusestion">
                 question_mark
               </span>
               <p className="id-text1"> Extimation </p>
             </div>
             <div className="inner-div">
-              <span class="material-symbols-outlined">lock</span>
-              <span class="material-symbols-outlined">question_mark</span>
+              <span className="material-symbols-outlined">lock</span>
+              <span className="material-symbols-outlined">question_mark</span>
               <p className="id-text"> GTM Strategy </p>
             </div>
             <div className="inner-div">
-              <span class="material-symbols-outlined">lock</span>
-              <span class="material-symbols-outlined">question_mark</span>
+              <span className="material-symbols-outlined">lock</span>
+              <span className="material-symbols-outlined">question_mark</span>
               <p className="id-text"> Product Sense </p>
             </div>
             <div className="inner-div">
-              <span class="material-symbols-outlined">lock</span>
-              <span class="material-symbols-outlined">question_mark</span>
+              <span className="material-symbols-outlined">lock</span>
+              <span className="material-symbols-outlined">question_mark</span>
               <p className="id-text"> Product Metrics </p>
             </div>
             <div className="inner-div">
-              <span class="material-symbols-outlined">lock</span>
-              <span class="material-symbols-outlined">question_mark</span>
+              <span className="material-symbols-outlined">lock</span>
+              <span className="material-symbols-outlined">question_mark</span>
               <p className="id-text"> Product Improvement </p>
             </div>
             <div className="inner-div">
-              <span class="material-symbols-outlined">lock</span>
-              <span class="material-symbols-outlined">question_mark</span>
+              <span className="material-symbols-outlined">lock</span>
+              <span className="material-symbols-outlined">question_mark</span>
               <p className="id-text"> Root Cause Analysis </p>
             </div>
             <div className="inner-div">
-              <span class="material-symbols-outlined">lock</span>
-              <span class="material-symbols-outlined">question_mark</span>
+              <span className="material-symbols-outlined">lock</span>
+              <span className="material-symbols-outlined">question_mark</span>
               <p className="id-text"> Assignment Deep Dive </p>
             </div>
           </div>

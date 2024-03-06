@@ -14,11 +14,7 @@ nav {
   z-index: 12;
 }
 
-#menu-bar {
-  display: none;
-}
-
-#menu-list {
+.menu-list {
   list-style-type: none;
   display: flex;
 }
@@ -51,6 +47,12 @@ nav {
   transition: height 0.2s ease-in-out;
 }
 
+.mobile-menu-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 #member-button {
   padding: 10px 20px;
   color: black;
@@ -66,24 +68,68 @@ nav {
   cursor: pointer;
 }
 
+#menu-bar {
+  display: none;
+}
+
 @media only screen and (max-width: 991px) {
   nav {
     position: fixed;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    transition: 0.5s height;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    gap: 2.1rem;
+  }
+
+  .show-menu {
+    height: 100vh;
+  }
+
+  .menu-close {
+    display: none;
+  }
+  .menu-open {
+    display: flex;
+  }
+
+  #member-button {
+    padding: 10px 12px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
   }
 
   #menu-bar {
     /* width: 100%; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
+
   .bar {
-    width: 20px;
-    height: 2px;
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
     background-color: white;
   }
-  #menu-list {
-    display: none;
+
+  #nav-logo {
+    order: 1;
+  }
+
+  .menu-list {
+    order: 3;
+    /* flex-direction: column; */
+  }
+
+  .mobile-menu-container {
+    order: 2;
   }
 }
